@@ -6,13 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: huxoll.net
+title: johngardner.name
 email: hello@eyebolt.com
 description: > # this means to ignore newlines until "baseurl:"
   If I'm not swamped, this site will contain a list of what I've been working on
   recently.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://huxoll.net" # the base hostname & protocol for your site
+url: "http://johngardner.name" # the base hostname & protocol for your site
 twitter_username: huxoll
 github_username:  huxoll
 
