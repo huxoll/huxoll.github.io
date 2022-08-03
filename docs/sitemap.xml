@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://johngardner.name/learning-materials/</loc>
+    <lastmod>2022-08-02T23:23:46-05:00</lastmod>
+  </url><url>
+    <loc>http://johngardner.name/</loc>
+    <lastmod>2022-08-02T23:19:46-05:00</lastmod>
+  </url><url>
+    <loc>http://johngardner.name/posts/</loc>
+    <lastmod>2022-08-02T23:19:46-05:00</lastmod>
+  </url><url>
+    <loc>http://johngardner.name/posts/welcome-post/</loc>
+    <lastmod>2022-08-02T23:19:46-05:00</lastmod>
+  </url><url>
+    <loc>http://johngardner.name/categories/</loc>
+  </url><url>
+    <loc>http://johngardner.name/tags/</loc>
+  </url>
+</urlset>

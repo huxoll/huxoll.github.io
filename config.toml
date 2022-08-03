@@ -2,3 +2,4 @@ baseURL = 'http://johngardner.name/'
 languageCode = 'en-us'
 title = 'johngardner.name'
 theme = "paper"
+publishdir = "docs"
