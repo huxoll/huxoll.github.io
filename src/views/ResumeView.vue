@@ -10,7 +10,7 @@
         </div>
       </header>
 
-      <div class="content">
+      <div class="content, paper-resume">
         <section>
           <h2>Summary of Qualifications</h2>
           <div class="summary">
@@ -264,7 +264,12 @@ const resume = reactive({
         border-radius: 10px;
         overflow: hidden;
       }
-
+      .paper-resume {
+        color: #333;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        overflow: hidden;
+      }
       header {
         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         color: white;

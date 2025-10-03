@@ -7,13 +7,13 @@ import { RouterView } from 'vue-router'
     <header class="hero">
       <nav class="nav">
         <a href="/about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-        <a class="cv" href="/resume">Experience / CV</a>
+        <a href="/#projects">Projects</a>
+        <a href="/#contact">Contact</a>
+        <a href="/resume">Experience / CV</a>
       </nav>
       <div class="hero-inner">
         <h1>John Huxoll Gardner</h1>
-        <p class="tagline">Engineer • Builder • Problem Solver</p>
+        <p class="tagline">Architect • Builder • Problem Solver</p>
         <p class="lede">
           I design and build pragmatic software with a focus on clarity, performance, and delightful
           user experiences.
@@ -27,23 +27,6 @@ import { RouterView } from 'vue-router'
 
     <main>
       <RouterView />
-      <section id="about" class="section">
-        <div class="container">
-          <h2>About</h2>
-          <p>
-            I'm a hands-on engineer who enjoys shipping end-to-end solutions — from thoughtful UX to
-            robust backend systems. I value strong fundamentals, maintainable code, and clear
-            communication.
-          </p>
-          <ul class="skills">
-            <li>TypeScript / JavaScript</li>
-            <li>Vue / React</li>
-            <li>Node / Python</li>
-            <li>APIs / Databases</li>
-            <li>Cloud / CI-CD</li>
-          </ul>
-        </div>
-      </section>
 
       <section id="projects" class="section alt">
         <div class="container">
@@ -88,7 +71,7 @@ import { RouterView } from 'vue-router'
             <a class="btn primary" href="mailto:gab.20.huxoll@spamgourmet.com">Email me</a>
             <!-- a class="btn" href="https://www.linkedin.com/in/jhuxoll" target="_blank" rel="noopener"
               >LinkedIn</a
-          -->
+          LinkedIn hacked! -->
             <a class="btn" href="https://github.com/huxoll" target="_blank" rel="noopener"
               >GitHub</a
             >
@@ -99,8 +82,8 @@ import { RouterView } from 'vue-router'
 
     <footer class="footer">
       <div class="container">
-        <span>© {{ new Date().getFullYear() }} Justin Gardner</span>
-        <a href="/jgardner-resume-2022-06.docx" target="_blank" rel="noopener">Download CV</a>
+        <span>© {{ new Date().getFullYear() }} John Gardner</span>
+        <a href="/resume" target="_blank" rel="noopener">See CV</a>
       </div>
     </footer>
   </div>

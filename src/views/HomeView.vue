@@ -3,15 +3,16 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <template>
+
   <div class="home-view">
-    <div class="hero-section">
+    <!-- div class="hero-section">
       <h1>Welcome</h1>
       <p class="hero-description">
         Blah blah blah.
       </p>
-    </div>
+    </div-->
 
-    <div class="quick-actions">
+    <!--div class="quick-actions">
       <h2>Quick Actions</h2>
       <div class="actions-grid">
         <RouterLink to="/resume" class="action-card">
@@ -20,29 +21,21 @@ import { RouterLink } from 'vue-router'
           <p>My work background and experience</p>
         </RouterLink>
       </div>
-    </div>
+    </div-->
 
-    <div class="stats-section">
+    <!-- div class="stats-section">
       <h2>System Overview</h2>
       <div class="stats-grid">
         <div class="stat-card">
-          <div class="stat-number">4</div>
+          <div class="stat-number">30</div>
           <div class="stat-label">Years of Experience</div>
         </div>
         <div class="stat-card">
-          <div class="stat-number">6</div>
+          <div class="stat-number">100+</div>
           <div class="stat-label">Projects</div>
         </div>
-        <div class="stat-card">
-          <div class="stat-number">Many</div>
-          <div class="stat-label">Skills</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-number">Lots</div>
-          <div class="stat-label">Hobbies</div>
-        </div>
       </div>
-    </div>
+    </div-->
   </div>
 </template>
 
