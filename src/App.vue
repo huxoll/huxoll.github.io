@@ -56,7 +56,7 @@ import { RouterView } from 'vue-router'
             </article>
             <article class="card nav">
               <p>
-                Full <a href="/resume">resume</a> available.
+                Full resume is available <a class="btn primary" href="/resume">here</a>.
               </p>
             </article>
           </div>
