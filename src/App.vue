@@ -45,7 +45,7 @@ import { RouterView } from 'vue-router'
               <p>
                 A social networking site for peer-to-peer employment services. The site was built with Django and Python.
               </p>
-              <div class="meta"><span>Vue</span><span>Vite</span><span>CSS</span></div>
+              <div class="meta"><span>Django</span><span>Python</span><span>Google Cloud</span></div>
             </article>
             <article class="card">
               <h3>Open Source</h3>
