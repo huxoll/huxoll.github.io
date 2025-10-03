@@ -36,7 +36,7 @@ import { RouterView } from 'vue-router'
               <h3>Austin Eat Outside</h3>
               <p>
                 Local restaurant discovery with outdoor seating focus. Built with a modern Vue
-                frontend and a Python API.
+                frontend and a Python API. (In Development)
               </p>
               <div class="meta"><span>Vue</span><span>Python</span><span>SQLite</span></div>
             </article>
@@ -54,7 +54,7 @@ import { RouterView } from 'vue-router'
                 Contributions across tooling and developer experience: Software, Automation, and
                 Design, CI and CD, and documentation.
               </p>
-              <div class="meta"><span>Tooling</span><span>DX</span><span>Docs</span></div>
+              <div class="meta"><span>Tooling</span><span>Automation</span><span>Docs</span></div>
             </article>
           </div>
         </div>

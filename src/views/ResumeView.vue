@@ -15,10 +15,11 @@
           <h2>Summary of Qualifications</h2>
           <div class="summary">
             Full life-cycle project development and management experience with multiple platforms,
-            including 20 years of Web UI/Java/J2EE; 10 years of Web Services and SOA; and several
-            years of virtualization, cluster, and cloud computing. Successful completion of numerous
-            large-scale web-based, Cloud and DevOps, Microservice, Web 2.0, and SOA projects.
-            Extensive knowledge of Java and C++, including AJAX, Servlets, J2EE, Swing, Spring MVC,
+            including 20 years of Web UI/JS/Python/Java; 10 years of Web Services; and 10+
+            years of virtualization, cluster, and cloud computing; AI and LLM, ML IoT, and Big Data.
+            Successful completion of numerous
+            large-scale web-based, Cloud and DevOps, Microservice, Web 2.0 projects.
+            Extensive knowledge of Python, JavaScript,Java and C++,
             REST/SOAP Web Services, SQL, ORM, and OOD in UML. Proficient with Unix scripting and Web
             technologies (Python/Django/Google App Engine, PHP, shell, Perl, Ruby/Ruby on Rails).
             Expert in Agile development, DevOps, CI/CD, and development methodologies. Experience
@@ -31,8 +32,27 @@
 
           <div class="job">
             <div class="job-header">
+              <span class="company">Broadcom</span>
+              <span class="date">November 2023 - Present</span>
+            </div>
+            <div class="location">Austin, Texas</div>
+            <div class="role">Staff Architect</div>
+            <p>
+              Developed professional services for Broadcom's AI and ML products, including Private AI, Data Service Manager, and VKS (Kubernetes).
+              Created and delivered training materials for customers and internal teams. Built internal LLM solutions with Open Source/Open Weight LLMs and RAG for use in the professional services organization.
+            </p>
+            <ul>
+              <li>Kubernetes</li>
+              <li>REST APIs, AWS, Azure</li>
+              <li>VMware Tanzu, Tanzu Kubernetes Grid</li>
+              <li>Python, GoLang, Node JS, Yaml</li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <div class="job-header">
               <span class="company">VMware</span>
-              <span class="date">June 2019 - Present</span>
+              <span class="date">June 2019 - November 2023</span>
             </div>
             <div class="location">Austin, Texas</div>
             <div class="role">Staff Architect</div>
