@@ -1,13 +1,15 @@
-<script setup></script>
+<script setup>
+import { RouterView } from 'vue-router'
+</script>
 
 <template>
   <div class="site">
     <header class="hero">
       <nav class="nav">
-        <a href="#about">About</a>
+        <a href="/about">About</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
-        <a class="cv" href="/jgardner-resume-2022-06.html">Experience / CV</a>
+        <a class="cv" href="/resume">Experience / CV</a>
       </nav>
       <div class="hero-inner">
         <h1>John Huxoll Gardner</h1>
@@ -24,6 +26,7 @@
     </header>
 
     <main>
+      <RouterView />
       <section id="about" class="section">
         <div class="container">
           <h2>About</h2>
