@@ -41,18 +41,16 @@ import { RouterView } from 'vue-router'
               <div class="meta"><span>Vue</span><span>Python</span><span>SQLite</span></div>
             </article>
             <article class="card">
-              <h3>Portfolio Starter</h3>
+              <h3>Entreave</h3>
               <p>
-                This site — a clean, responsive starter showcasing modern design patterns and
-                accessible components.
+                A social networking site for peer-to-peer employment services. The site was built with Django and Python.
               </p>
               <div class="meta"><span>Vue</span><span>Vite</span><span>CSS</span></div>
             </article>
             <article class="card">
               <h3>Open Source</h3>
               <p>
-                Contributions across tooling and developer experience: Software, Automation, and
-                Design, CI and CD, and documentation.
+                Contributions to many open source projects: Bug Fixes, Automation, CI and CD, and documentation.
               </p>
               <div class="meta"><span>Tooling</span><span>Automation</span><span>Docs</span></div>
             </article>
