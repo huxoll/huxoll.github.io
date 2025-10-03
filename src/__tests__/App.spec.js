@@ -32,16 +32,16 @@ describe('App', () => {
     await router.isReady()
 
     // Check if the home link is present
-    const aboutLink = wrapper.find('a[href="#about"]')
+    const aboutLink = wrapper.find('a[href="/about"]')
     expect(aboutLink.exists()).toBe(true)
     expect(aboutLink.text()).toBe('About')
 
-    const projectsLink = wrapper.find('a[href="#projects"]')
+    const projectsLink = wrapper.find('a[href="/#projects"]')
     expect(projectsLink.exists()).toBe(true)
     expect(projectsLink.text()).toBe('Projects')
 
     const contactLink = wrapper.find('a[href="#contact"]')
     expect(contactLink.exists()).toBe(true)
-    expect(contactLink.text()).toBe('Contact')
+    expect(contactLink.text()).toBe('Get in touch')
   })
 })
