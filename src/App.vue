@@ -54,6 +54,11 @@ import { RouterView } from 'vue-router'
               </p>
               <div class="meta"><span>Tooling</span><span>Automation</span><span>Docs</span></div>
             </article>
+            <article class="card nav">
+              <p>
+                Full <a href="/resume">resume</a> available.
+              </p>
+            </article>
           </div>
         </div>
       </section>
