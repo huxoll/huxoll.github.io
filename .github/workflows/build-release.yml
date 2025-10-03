@@ -8,15 +8,13 @@ on:
   pull_request:
     branches: [ "master" ]
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:  
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
       - name: Use Node.js 23.x
@@ -24,13 +22,14 @@ jobs:
         with:
           node-version: 23.x
 
-      - name: Run a one-line script
+      - name: npm CI build
         run: |
           npm ci
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - name: Unit tests
         run: |
           npm run test:unit
 
-
+      - name: npm build
+        run: |
+          npm run build
